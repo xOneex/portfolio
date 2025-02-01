@@ -1,0 +1,140 @@
+h5 {
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 3rem;
+    margin-top: 50px;
+    text-shadow: 5px 5px 5px rgba(72, 72, 72, 0.7);
+  }
+
+#csmModelUntextured {
+    max-width: 100%;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-left: 3%;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.8);
+   }
+
+#csmModel {
+    max-width: 100%;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px -2px rgba(143, 143, 143, 0.8);
+    transition: filter 0.3s ease; 
+}
+
+#dojoModel {
+    max-width: 100%;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px -2px rgba(143, 143, 143, 0.8);
+   }
+
+#myAvatarModel {
+    max-width: 100%;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.8);
+   }
+
+#velKozModel {
+    max-width: 100%;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px -2px rgba(143, 143, 143, 0.8);
+   }
+
+#tuModel {
+    max-width: 100%;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px -2px rgba(143, 143, 143, 0.8);
+   }
+
+#ihModel {
+    max-width: 100%;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px -2px rgba(143, 143, 143, 0.8);
+   }
+
+   
+#kwModel {
+    max-width: 100%;
+    max-height: 142px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px -2px rgba(143, 143, 143, 0.8);
+   }
+
+.hover-container {
+    position: relative;
+    display: inline-block;
+    margin: 1%;
+}
+
+.hover-container img {
+    max-width: 100%;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px -2px rgba(143, 143, 143, 0.8);
+    transition: filter 0.3s ease;
+}
+
+.hover-container:hover img {
+    filter: grayscale(100%) brightness(50%);
+}
+
+.hover-text {
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    bottom: 10px;
+    left: 51%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.hover-container:hover .hover-text {
+    opacity: 1;
+}
