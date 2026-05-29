@@ -13,7 +13,7 @@ body, html {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  filter: brightness(25%);
+  filter: brightness(50%);
 }
 
 .SpaceInvadersVideo video {
