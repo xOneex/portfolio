@@ -155,7 +155,14 @@ body, html {
 }
 
 p9 {
-  text-shadow: 5px 5px 5px rgba(72, 72, 72, 0.7);
+  text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    0 0 15px rgba(0, 0, 0, 0.9),
+    0 0 30px rgba(0, 0, 0, 0.7),
+    4px 4px 10px rgba(0, 0, 0, 0.8);
   font-family: 'Press Start 2P', sans-serif;
   font-size: 8px;
   position: fixed;
