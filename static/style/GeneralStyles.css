@@ -135,23 +135,35 @@ body, html {
 }
 
  
- #logos {
+#logos {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 30px;
+    gap: 0px;
     position: fixed; 
     bottom: 30px;
-    left: 48%;
+    left: 50%; 
     transform: translateX(-50%); 
+    width: max-content; 
     z-index: 100; 
     padding: 10px 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
-.logo {
-    max-height: 105px;
+#logos img {
+    width: 300px; 
+    height: auto; 
+    margin: 0 -80px;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.75;
+    clip-path: inset(0 75px 0 75px);    
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#logos img:hover {
+    z-index: 101;
 }
 
 p9 {
