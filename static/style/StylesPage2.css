@@ -34,7 +34,7 @@
   width: auto;
   height: auto;
   border-radius: 25px;
-  box-shadow: 0 0 10px -2px rgba(143, 143, 143, 0.8);
+  box-shadow: 0 0 10px -2px rgba(59, 168, 139, 0.8);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }

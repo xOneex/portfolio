@@ -4,6 +4,11 @@ body, html {
     height: 100%; 
     background-color: rgb(13, 13, 13);
     overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#page1, #page2, #page3, #page4, #page5, #page6, #page7 {
+    padding-bottom: 250px;
 }
 
 .SpaceInvadersVideo {
@@ -143,7 +148,16 @@ body, html {
   filter: drop-shadow(0 0 10px rgba(168, 59, 90, 0.8));
 }
 
-.HomeLogo-Glow.active, .AboutMeLogo-Glow.active, .DevilsCrownLogo-Glow.active, .VOVELogo-Glow.active, .BlenderLogo-Glow.active, .DeadSectorLogo-Glow.active {
+.NovaLogo-Glow {
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  filter: drop-shadow(0 0 3px rgba(128, 128, 128, 0.6));
+}
+
+.NovaLogo-Glow:hover, .NovaLogo-Glow.active {
+  filter: drop-shadow(0 0 10px rgba(168, 59, 90, 0.8));
+}
+
+.HomeLogo-Glow.active, .AboutMeLogo-Glow.active, .DevilsCrownLogo-Glow.active, .VOVELogo-Glow.active, .BlenderLogo-Glow.active, .DeadSectorLogo-Glow.active, .NovaLogo-Glow.active {
   transform: scale(1.1);
 }
 
