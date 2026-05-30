@@ -33,29 +33,34 @@
     <h3>About Me</h3>
 
     <div id="profileContainer">
-        <img src="./static/images/GlitcherCrown.png" alt="My Profile Picture" id="profilePicture">
+    <div id="profileImageWrapper">
+        <img src="./static/images/NovaPFP.png" alt="My Profile Picture" id="profilePicture">
+        <p id="novaPFPText">Nova's Profile Picture</p>
+    </div>
         <p id="page2Text">
-            I was born in 2006, and ever since I can<br>
-            remember, I've been hooked on figuring out how things<br>
-            work especially video games. While others were just<br>
-            playing, I was digging into how they were made, trying<br>
-            to understand the mechanics and systems behind them.<br>
-            That curiosity turned into a full-on passion for<br>
-            game development.<br><br>
-          
-           I've got 7 GCSEs, and I've built my own game from scratch<br>
-            in MonoGame a Dark Souls styled boss-beater with<br>
-            gameplay inspired by Hades. I work primarily with C#,<br>
-            and MonoGame, thought I'm currently getting into Unity<br>
-            as I'm always looking for ways to improve my skills and<br>
-            tackle new challenges.<br><br>
-          
-           For me, game development is all about the challenge and<br>
-            creativity. Whether it's coding, designing, or just<br>
-            figuring out how to make something work, I'm always<br>
-            learning and pushing myself. My goal is to create games<br>
-            that stick with people, just like the ones that made me<br>
-            fall in love with this industry.
+            I was born in 2006, and from an early age I became fascinated<br>
+            with the systems and logic behind software, particularly games.<br>
+            That curiosity pushed me to just start building things<br>
+            and figure it out as I went.<br><br>
+
+            I'm currently studying at Keele University for Computer Science [Games] BSc.<br>
+            My primary language is C#, with hands-on experience in Java,<br>
+            JavaScript, HTML and CSS across a range of self-driven projects.<br>
+            I've developed games from the ground up using MonoGame and Unity,<br>
+            handling everything from entity component systems and collision<br>
+            detection to enemy AI and state machines. Most recently I've been<br>
+            building Dead-Sector, a multiplayer 3D atmospheric game in Unity with<br>
+            custom-designed assets.<br><br>
+
+            Outside of game development, I built Nova, a Discord-integrated AI<br>
+            with sentiment analysis, realistic emotional modelling, persistent<br>
+            memory and a cross-referenced social memory system that tracks and creates<br>
+            relationships between users across a server. Nova runs as a live deployed<br>
+            system, not just something that sits on my machine.<br><br>
+
+            I'm always pushing into new areas, whether that's engine architecture,<br>
+            AI systems or 3D asset pipelines. I build things because I genuinely<br>
+            enjoy it, and I think that comes through in the work.
         </p>
     </div>
 </div>
@@ -71,53 +76,61 @@
       <p3 id="page3Text"><span class="highlighter" style="background-color: #a83b5a;">Personal Project</span></p3>
       <p>
         <br>
-        <strong>Devils Crown</strong> is a boss-focused action game with<br>
-        a Souls-like atmosphere. developed using MonoGame and<br>
-        written in C#. It takes inspiration from titles like Dead<br>
-        Cells and Hades, while its mechanics are influenced by<br>
+        <strong>Devils Crown</strong> is a boss-focused action game with
+        a Souls-like atmosphere. developed using MonoGame and
+        written in C#. It takes inspiration from titles like Dead
+        Cells and Hades, while its mechanics are influenced by
         the Dark Souls series.<br><br>
         
-        The core concept of the game revolves around defeating<br>
-        the main boss as quickly as possible, emphasizing skill<br>
-        and strategy, obtaining achievements along the way. This project was<br>
-        designed to showcase my programming abilities and my capacity to create a<br>
-        polished and functional game from scratch without an engine.<br><br>
+        The core concept of the game revolves around defeating
+        the main boss as quickly as possible, emphasizing skill
+        and strategy, obtaining achievements along the way. This project was
+        designed to showcase my programming abilities and my capacity to create a
+        polished and functional game from scratch without an engine [also it has controller support].<br><br>
         
-        All the visuals were created in Blender as 3D models,<br>
-        which were then rendered into pixel art for easier<br>
+        All the visuals were created in Blender as 3D models,
+        which were then rendered into pixel art for easier
         animation and a unique aesthetic.<br><br>
         
-        Apart from the sound and music, every aspect of the<br>
+        Apart from the sound and music, every aspect of the
         game was created solely by me.<br><br>
         
         Download: <a href="https://xoneex.itch.io/devils-crown" target="_blank" style="color: #689ad0;">Devils Crown Download</a>
     </p>
     </div>
   </div>
+  <div id="dc-gallery">
+  <img src="./static/images/DC1.png" alt="Devils Crown Screenshot 1" class="dc-gallery-img">
+  <img src="./static/images/DC2.png" alt="Devils Crown Screenshot 2" class="dc-gallery-img">
+  <img src="./static/images/DC3.png" alt="Devils Crown Screenshot 3" class="dc-gallery-img">
+  <img src="./static/images/DC4.png" alt="Devils Crown Screenshot 4" class="dc-gallery-img">
+  <img src="./static/images/DC5.png" alt="Devils Crown Screenshot 5" class="dc-gallery-img">
+  <img src="./static/images/DC6.png" alt="Devils Crown Screenshot 6" class="dc-gallery-img">
+</div>
 </div>
 
   <div id="page4" style="display: none">
     <h5>3D Models</h5>
-
+  <div id="models-grid">
     <div class="hover-container">
-        <img src="./static/images/ChainsawManModelUntextured.png" alt="Chainsaw Man Model [Untextured]" id="csmModelUntextured">
-        <span class="hover-text">Chainsaw Man Model [Untextured]</span>
+        <img src="./static/images/Bedroom.png" alt="My Dorm Room Model [Untextured]" id="bedroomModel">
+        <span class="hover-text">My Dorm Room Model</span>
     </div>
     <div class="hover-container">
         <img src="./static/images/ChainsawManModel.png" alt="Chainsaw Man Model" id="csmModel">
-        <span class="hover-text">Chainsaw Man Model</span>
+        <span class="hover-text">Chainsaw Man [CSM] Model</span>
     </div>
     <div class="hover-container">
         <img src="./static/images/DojoModel.png" alt="Dojo Model" id="dojoModel">
-        <span class="hover-text">Infinity Castle Model</span>
+        <span class="hover-text">Infinity Castle [Demon Slayer] Model</span>
     </div>
     <div class="hover-container">
-        <img src="./static/images/MyAvatarModel.png" alt="My Personal Avatar Model" id="myAvatarModel">
-        <span class="hover-text">My Personal Avatar Model</span>
+        <img src="./static/images/ViGauntletsModel.png" alt="Vi Gauntlets" id="viGauntletsModel">
+        <span class="hover-text">Vi Gaunlets [Arcane] Model</span>
     </div>
     <div class="hover-container">
         <img src="./static/images/VelKozModel.png" alt="VelKoz Model" id="velKozModel">
-        <span class="hover-text">VelKoz Model</span>
+        <span class="hover-text">VelKoz [League of Legends] Model</span>
     </div>
     <div class="hover-container">
         <img src="./static/images/TheUnderModel.png" alt="The Under Presents Inspired Model" id="tuModel">
@@ -125,11 +138,16 @@
     </div>
     <div class="hover-container">
         <img src="./static/images/IgrisHelmetModel.png" alt="Igris Helmet Model" id="ihModel">
-        <span class="hover-text">Igris Helmet Model</span>
+        <span class="hover-text">Igris Helmet [Solo Levelling] Model</span>
     </div>
     <div class="hover-container">
         <img src="./static/images/KamishsWrath.png" alt="Kamish's Wrath [Solo Levelling Dagger] Model" id="kwModel">
-        <span class="hover-text">Kamish's Wrath [Solo Levelling Dagger] Model</span>
+        <span class="hover-text">Kamish's Wrath [Solo Levelling] Model</span>
+    </div>
+    <div class="hover-container">
+        <img src="./static/images/Azazel.png" alt="Azazel [Dead-Sector] Model" id="azazelModel">
+        <span class="hover-text">Azazel [Dead-Sector] Model</span>
+    </div>
     </div>
 </div>
 
