@@ -1,4 +1,4 @@
-#page5 {
+#page6 {
   position: relative;
   text-align: center;
   margin-top: 150px;
@@ -7,11 +7,15 @@
   padding-bottom: 200px;
 }
 
-h6 {
+h7 {
+  display: block;
   position: relative;
-  font-size: 3rem;
-  margin-top: 100px;
-  color: rgb(168, 101, 59);
+  font-size: 2rem;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  color: rgb(168, 59, 90);
+  font-family: 'Press Start 2P', sans-serif;
+  text-align: center;
   text-shadow:
   -2px -2px 0 #000,
    2px -2px 0 #000,
@@ -22,17 +26,18 @@ h6 {
   4px 4px 10px rgba(0, 0, 0, 0.8);
 }
 
-#voveVideo {
-  position: relative;
+#dsMainImage {
   width: 100%;
   max-width: 600px;
-  height: auto;
+  max-height: 400px;
+  object-fit: cover;
   border-radius: 10px;
   margin-top: 2%;
+  flex-shrink: 0;
   box-shadow: 0 0 10px -2px rgba(143, 143, 143, 0.8);
 }
 
-#video-desc-vove {
+#image-desc-ds {
   text-shadow: 5px 5px 5px rgba(72, 72, 72, 0.7);
   display: flex;
   justify-content: space-evenly;
@@ -41,24 +46,25 @@ h6 {
   margin: 0 10%;
 }
 
-#video-desc-vove div {
+#image-desc-ds div {
   max-width: 500px;
   text-align: left;
+  margin-top: 2%;
 }
 
-#page5Text {
+#page6Text {
   display: block;
   margin-bottom: 10px;
 }
 
-#vove-gallery {
+#ds-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   margin: 40px 10% 120px 10%;
 }
 
-.vove-gallery-img {
+.ds-gallery-img {
   width: 100%;
   height: 300px;
   object-fit: contain;
@@ -69,7 +75,7 @@ h6 {
   cursor: pointer;
 }
 
-.vove-gallery-img:hover {
+.ds-gallery-img:hover {
   transform: scale(1.03);
   box-shadow: 0 0 20px rgba(168, 59, 90, 1);
 }

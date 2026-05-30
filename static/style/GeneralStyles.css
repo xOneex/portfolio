@@ -134,7 +134,16 @@ body, html {
   filter: drop-shadow(0 0 10px rgba(168, 101, 59, 0.8));
 }
 
-.HomeLogo-Glow.active, .AboutMeLogo-Glow.active, .DevilsCrownLogo-Glow.active, .VOVELogo-Glow.active, .BlenderLogo-Glow.active {
+.DeadSectorLogo-Glow {
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  filter: drop-shadow(0 0 3px rgba(128, 128, 128, 0.6));
+}
+
+.DeadSectorLogo-Glow:hover, .DeadSectorLogo-Glow.active {
+  filter: drop-shadow(0 0 10px rgba(168, 59, 90, 0.8));
+}
+
+.HomeLogo-Glow.active, .AboutMeLogo-Glow.active, .DevilsCrownLogo-Glow.active, .VOVELogo-Glow.active, .BlenderLogo-Glow.active, .DeadSectorLogo-Glow.active {
   transform: scale(1.1);
 }
 
