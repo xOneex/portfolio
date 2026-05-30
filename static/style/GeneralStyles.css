@@ -105,7 +105,7 @@ body, html {
   100% { transform: translate(0, 0); }
 }
 
-.HomeLogo-Glow, .AboutMeLogo-Glow, .DevilsCrownLogo-Glow, .BlenderLogo-Glow {
+.HomeLogo-Glow, .AboutMeLogo-Glow, .DevilsCrownLogo-Glow, .VOVELogo-Glow, .BlenderLogo-Glow {
   transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
   height: 350px;
   z-index: 10;
@@ -130,7 +130,11 @@ body, html {
   filter: drop-shadow(0 0 10px rgba(45, 103, 251, 0.8));
 }
 
-.HomeLogo-Glow.active, .AboutMeLogo-Glow.active, .DevilsCrownLogo-Glow.active, .BlenderLogo-Glow.active {
+.VOVELogo-Glow:hover, .VOVELogo-Glow.active {
+  filter: drop-shadow(0 0 10px rgba(168, 101, 59, 0.8));
+}
+
+.HomeLogo-Glow.active, .AboutMeLogo-Glow.active, .DevilsCrownLogo-Glow.active, .VOVELogo-Glow.active, .BlenderLogo-Glow.active {
   transform: scale(1.1);
 }
 

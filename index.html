@@ -7,6 +7,7 @@
   <link href="./static/style/StylesPage2.css" rel="stylesheet">
   <link href="./static/style/StylesPage3.css" rel="stylesheet">
   <link href="./static/style/StylesPage4.css" rel="stylesheet">
+  <link href="./static/style/StylesPage5.css" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -151,11 +152,80 @@
     </div>
 </div>
 
+<div id="page5" style="display: none">
+  <h6>VOVE</h6>
+  <div id="video-desc-vove">
+    <video autoplay loop muted playsinline id="voveVideo">
+      <source src="./static/videos/VOVEGif.mp4" type="video/mp4">
+      Your browser does not support this video.
+    </video>
+    <div>
+      <p5 id="page5Text"><span class="highlighter" style="background-color: #a8653b;">Personal Project</span></p5>
+      <p>
+        <br>
+        <strong>VOVE</strong> is a rhythm-based game inspired by osu!,
+        developed using Processing and written in Java. Players navigate
+        through levels synced to music, requiring precision and timing
+        to achieve high scores.<br><br>
+
+        The game features a fully designed UI and menu system, 
+        and a polished visual aesthetic and a custom undertale-themed level, built
+        entirely from scratch without an engine.<br><br>
+
+        Apart from the sound, music and background art, every aspect of the
+        game was created solely by me.<br><br>
+        
+        Also, this game was actually created for one of my University modules.<br><br>
+      </p>
+    </div>
+  </div>
+  <div id="vove-gallery">
+    <img src="./static/images/VOVE1.png" alt="VOVE Screenshot 1" class="vove-gallery-img">
+    <img src="./static/images/VOVE2.png" alt="VOVE Screenshot 2" class="vove-gallery-img">
+    <img src="./static/images/VOVE3.png" alt="VOVE Screenshot 3" class="vove-gallery-img">
+    <img src="./static/images/VOVE4.png" alt="VOVE Screenshot 4" class="vove-gallery-img">
+    <img src="./static/images/VOVE5.png" alt="VOVE Screenshot 5" class="vove-gallery-img">
+    <img src="./static/images/VOVE6.png" alt="VOVE Screenshot 6" class="vove-gallery-img">
+  </div>
+</div>
+
+<div id="page6" style="display: none">
+  <h7>Dead-Sector [IN DEVELOPMENT]</h7>
+  <div id="image-desc-ds">
+    <img src="./static/images/DSMain.png" alt="Dead-Sector Main Image" id="dsMainImage">
+    <div>
+      <p6 id="page6Text"><span class="highlighter" style="background-color: #226a97;">Personal Project</span></p6>
+      <p>
+        <br>
+        <strong>Dead-Sector</strong> is a multiplayer 3D atmospheric
+        game developed in Unity and written in C#. Set in a dark,
+        industrial world, players take on the role of experimental
+        recovery units on surface salvage operations.<br><br>
+
+        The game features custom 3D assets, atmospheric lighting,
+        environmental storytelling and a fully designed game world
+        built entirely from scratch.<br><br>
+
+        Every aspect of the game including code, 3D models,
+        textures and level design was created solely by me.<br><br>
+      </p>
+    </div>
+  </div>
+  <div id="ds-gallery">
+    <img src="./static/images/DS1.png" alt="Dead-Sector Screenshot 1" class="ds-gallery-img">
+    <img src="./static/images/DS2.png" alt="Dead-Sector Screenshot 2" class="ds-gallery-img">
+    <img src="./static/images/DS3.png" alt="Dead-Sector Screenshot 3" class="ds-gallery-img">
+    <img src="./static/images/DS4.png" alt="Dead-Sector Screenshot 4" class="ds-gallery-img">
+    <img src="./static/images/DS5.png" alt="Dead-Sector Screenshot 5" class="ds-gallery-img">
+    <img src="./static/images/DS6.png" alt="Dead-Sector Screenshot 6" class="ds-gallery-img">
+  </div>
+</div>
 
   <div id="logos">
     <img src="./static/images/AboutMe.png" alt="About Me Logo" class="AboutMeLogo-Glow logo" onclick="setActive(this)">
     <img src="./static/images/Home.png" alt="Home Logo" class="HomeLogo-Glow active logo" onclick="setActive(this)">
     <img src="./static/images/DevilsCrown.png" alt="Devils Crown Logo" class="DevilsCrownLogo-Glow logo" onclick="setActive(this)">
+    <img src="./static/images/VOVE.png" alt="VOVE Logo" class="VOVELogo-Glow logo" onclick="setActive(this)">
   <img src="./static/images/Blender.png" alt="Blender Logo" class="BlenderLogo-Glow logo" onclick="setActive(this)">
 </div>
 
